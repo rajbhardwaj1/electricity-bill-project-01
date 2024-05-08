@@ -1,0 +1,41 @@
+*{
+    margin: 0%;
+    padding: 0%;        
+}
+body{
+    background-color: white;
+}
+#fs{
+    width: 55%;
+    background-color: white;
+    text-align: center;
+    border: 2px solid black;
+    margin-left: 20%;
+    margin-top: 2px;
+}
+td{
+    width: 25%;
+    text-align: left;
+    padding-left: 15px;
+}
+#fs2,#fs3,#fs4{
+    border: 2px solid black;
+    margin-left: 2px;
+    margin-right: 1px;
+    padding-top: 18px;
+}
+
+input{
+    height: 18px;
+}
+label{
+    font-size: 12px;
+}
+button{
+    width: 130px;
+    height:27px;
+    background-color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 2px solid rgb(92, 85, 85);
+}

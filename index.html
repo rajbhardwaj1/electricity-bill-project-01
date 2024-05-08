@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BSPGCL Elecricity Bill</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <fieldset id="fs" >
+        <table style="width: 100%;padding-top: 10px;">
+            <tr >
+                <td style="width: 70px; "><img  src="bsp.jpg" height="70px" ></td>
+                <td style="padding-right: 40px;width: auto;text-align: center;">
+                    <h3>BIHAR STATE POWER GENERATION COMPANY LIMITED</h3>
+        <h4 style="margin-top: 10px;">ELECTRICITY BILL</h4>
+                </td>
+            </tr>
+        </table>
+        <fieldset id="fs2">
+            <table style="padding-top: 20px;padding-bottom: 10px;padding-right: 35px;padding-left: 2px;">
+                <caption><b>Consumer Details</b></caption>
+                <tr id="tr1">
+                    <td><label for="bill"><b>Bill Id</b></label></td>
+                    <td><input type="text" name="bill"></td>
+                    <td colspan="2"></td>
+                </tr>
+                <tr id="tr1">
+                    <td><label for="id"><b>Customer Id</b></label></td>
+                    <td><input type="text" name="id"></td>
+                    <td><label for="met"><b>Meter Number</b></label></td>
+                    <td><input type="text" name="met"></td>
+                </tr>
+                <tr id="tr1">
+                    <td><label for="name"><b>Customer Name</b></label></td>
+                    <td><input type="text" name="name"></td>
+                    <td><label for="mob"><b>Mobile Number</b></label></td>
+                    <td><input type="number" name="mob"></td>
+                </tr>
+                <tr id="tr1">
+                    <td><label for="add"><b>Customer Address</b></label></td>
+                    <td colspan="3"><input style="width: 99.3%;" type="text" name="add"></td>
+                </tr>
+                <tr id="tr1">
+                    <td><label for="area"><b>Area type</b></label></td>
+                    <td><input type="text" name="area"></td>
+                    <td><label for="date"><b>Bill Date</b></label></td>
+                    <td><input type="text" name="date"></td>
+                </tr>
+                <tr id="tr1">
+                    <td><label for="con"><b>Connection type</b></label></td>
+                    <td><input type="text" name="con"></td>
+                    <td><label for="days"><b>Billed Days</b></label></td>
+                    <td><input type="text" name="days"></td>
+                </tr>
+            </table>
+        </fieldset>
+        
+    <div style="width: 100%;background-color: white;display: flex;">
+        <div style="width: 49%; margin-right: 8px;">
+            <fieldset id="fs3" style="padding-top: 7px;width: 100%;margin-top: 2px;height: 109px;">
+                <table>
+                    <caption style="padding-bottom: 10px;"><b>Reading Details</b></caption>
+                    <tr>
+                        <td><label for="pread"><b>Previous Reading</b></label></td>
+                        <td><input type="text" name="pread"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="cread"><b>Current Reading</b></label></td>
+                        <td><input type="text" name="cread"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="cons"><b>Consumption</b></label></td>
+                        <td><input type="text" name="cons"></td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset id="fs3" style="padding-top: 7px;width: 100%;margin-top: 5px;height: 102px;">
+                <table>
+                    <caption style="padding-bottom: 7px;"><b>Details of Last Payment</b></caption>
+                    <tr>
+                        <td><label for="lpa"><b>Last Paid Amount</b></label></td>
+                        <td><input type="text" name="lpa"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="ldate"><b>Last Paid Date</b></label></td>
+                        <td><input type="text" name="ldate"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="pid"><b>Payment Id</b></label></td>
+                        <td><input type="text" name="pid"></td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset id="fs3" style="padding-top: 7px;width: 100%;margin-top: 5px;height: 100px;">
+                <table>
+                    <tr style="height: 35px;">
+                        <td><label ><b>Payable Amount Upto</b></label></td>
+                        <td></td>
+                    </tr>
+                    <tr style="height: 20px;">
+                        <td><label ><b>Payable Amount Upto</b></label></td>
+                        <td></td>
+                    </tr>
+                    <tr style="height: 35px;">
+                        <td><label ><b>Paid After</b></label></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </fieldset>
+        </div>
+        <div style="width: 49%;">
+            <fieldset id="fs4" style="padding-top: 3px;width: 100%;margin-top: 2px;height: 125px;">
+                <table>
+                    <caption style="padding-bottom: 3px;"><b>Arrear Details</b></caption>
+                    <tr>
+                        <td><label for="pay"><b>Payment On Account</b></label></td>
+                        <td><input type="text" name="pay"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="ener"><b>Energy Dues</b></label></td>
+                        <td><input type="text" name="ener"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="dps"><b>Arrears DPS</b></label></td>
+                        <td><input type="text" name="dps"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="tota"><b>Sub Total (A)</b></label></td>
+                        <td><input type="text" name="tota"></td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset id="fs4" style="padding-top: 3px;width: 100%;margin-top: 2px;height: 235px;">
+                <table>
+                    <caption style="padding-bottom: 3px;"><b>Current Bill Details</b></caption>
+                    <tr>
+                        <td><label for="Charges"><b>Energy Charges</b></label></td>
+                        <td><input type="text" name="Charges"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="Charge"><b>Fixed Charge</b></label></td>
+                        <td><input type="text" name="Charge"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="Duty"><b>Electric Duty</b></label></td>
+                        <td><input type="text" name="Duty"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="Rent"><b>Meter Rent</b></label></td>
+                        <td><input type="text" name="Rent"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="Other"><b>Other Charges</b></label></td>
+                        <td><input type="text" name="Other"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="Gov"><b>Gov. Subsidy</b></label></td>
+                        <td><input type="text" name="Gov"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="totb"><b>Sub Total (B)</b></label></td>
+                        <td><input type="text" name="totb"></td>
+                    </tr>
+                    <tr >
+                        <td><label for="totab"><b>Gross Total (A+B)</b></label></td>
+                        <td><input style="margin-top: 14px;" type="text" name="totab"></td>
+                    </tr>
+                </table>
+            </fieldset>
+        </div>  
+    </div>
+    <button><b>Create Bill</b></button>
+    </fieldset>
+
+    
+</body>
+</html>
